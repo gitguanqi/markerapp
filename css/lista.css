@@ -1,0 +1,125 @@
+/*
+author: guanqi,
+date: 2019.04.05;
+comment: 首页列表样式
+*/
+
+
+/*公共列表*/
+
+.index-list {
+    margin-bottom: 20px;
+    padding: 10px auto 0 auto;
+    background-color: #eee;
+}
+
+
+/*公共列表内容*/
+
+.index-item {
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.index-item:hover {
+    background-color: #f8f8f8;
+}
+
+.index-item:last-child {
+    margin-bottom: 0;
+}
+
+
+/*公共标题*/
+
+.index-item-title {
+    padding-left: 10px;
+    width: 75%;
+    height: 20px;
+    line-height: 20px;
+    font-size: 17px;
+    color: #555;
+}
+
+
+/*公共内容摘要*/
+
+.index-item-content {
+    margin-top: 5px;
+    padding-left: 10px;
+    width: 75%;
+    height: 36px;
+    line-height: 18px;
+    font-size: 14px;
+    color: #666;
+}
+
+
+/*公共内容底部信息*/
+
+.index-item-info {
+    margin-top: 5px;
+    padding-left: 10px;
+    width: 95%;
+    height: 18px;
+    line-height: 18px;
+}
+
+.index-item-info .index-item-block {
+    margin-right: 5px;
+    float: left;
+    display: block;
+    width: 20%;
+    height: 18px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.index-item-block:first-child {
+    width: 30%;
+}
+
+.index-item-block i {
+    float: left;
+}
+
+.index-item-in {
+    margin-left: 2px;
+    display: block;
+    float: left;
+    width: auto;
+    height: 20px;
+    font-size: 10px;
+    color: #777;
+}
+
+
+/*公共右侧图片*/
+
+.index-item-img {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    display: block;
+    width: 55px;
+    height: 55px;
+    border-radius: 8px;
+}
+
+.index-item-img-hide {
+    display: none;
+}
+
+.index-item-noimg .index-item-title {
+    width: 95%;
+}
+
+.index-item-noimg .index-item-content {
+    width: 95%;
+}

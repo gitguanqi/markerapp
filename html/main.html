@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0, minimum-scale=1.0, user-scalable=0, initial-scale=1.0, width=device-width" />
+    <meta name="format-detection" content="telephone=no, email=no, date=no, address=no">
+    <meta name="keyword" content="博客之家,写作,阅读">
+    <meta name="description" content="博客之家是一个专门用于写博客的app,你可以在这里游览博客,写博客,记录生活美好瞬间">
+    <meta name="url" content="https://guanqi.xyz">
+    <meta name="author" content="guanqi">
+    <title>博客之家</title>
+    <link rel="stylesheet" type="text/css" href="../css/api.css" />
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/lista.css" />
+</head>
+
+<body class="disable-scrollx">
+    <div class="container">
+        <ul class="index-list clearFix" id="listdata">
+            <script id="tmlTemp" type="text/x-dot-template">
+                {{ for(var i=0;i
+                <it.length;i++) { }} <li class="{{= it[i].article_img == null ? 'index-item index-item-noimg' : 'index-item'}}" onclick="openInfoWin('{{=it[i].id}}','index')">
+                    <h2 class="index-item-title overflow-one">{{=it[i].article_title}}</h2>
+                    <p class="index-item-content overflow-more">{{=it[i].article_summary}}</p>
+                    <p class="index-item-info">
+                        <span class="index-item-block"><i class="iconfont">&#xe648;</i><strong class="index-item-in">{{=it[i].createdAt}}</strong></span>
+                        <span class="index-item-block"><i class="iconfont">&#xe639;</i><strong class="index-item-in">{{=it[i].read_num == null ? 0 : it[i].read_num}}</strong></span>
+                        <span class="index-item-block"><i class="iconfont">&#xe62b;</i><strong class="index-item-in">{{=it[i].good_num == null ? 0 : it[i].good_num}}</strong></span>
+                        <span class="index-item-block"><i class="iconfont">&#xe60b;</i><strong class="index-item-in">{{=it[i].reply_num == null ? 0 : it[i].reply_num}}</strong></span>
+                    </p>
+                    <img class="{{= it[i].article_img == null ? 'index-item-img index-item-img-hide' : 'index-item-img'}}" src="{{=it[i].article_img}}" alt="{{=it[i].article_title}}">
+                    </li>
+                    {{ } }}
+            </script>
+        </ul>
+        <p id="no-data" class="no-data-list"><i class="iconfont">&#xe619;</i>小主,暂时没有文章哦~</p>
+        <div id="index-bottom" class="index-bottom-deadline">我是有底线的哦~</div>
+    </div>
+    <script type="text/javascript" src="../script/api.js"></script>
+    <script type="text/javascript" src="../script/doT.js"></script>
+    <script type="text/javascript" src="../script/base.js"></script>
+    <script type="text/javascript" src="../script/requrl.js"></script>
+    <script type="text/javascript" src="../script/main.js"></script>
+</body>
+
+</html>

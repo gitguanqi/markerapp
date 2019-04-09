@@ -1,0 +1,68 @@
+/*
+author: guanqi;
+date: 2019.4.4;
+comment: 首页样式
+*/
+
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+/* 整体布局 */
+
+.wrap {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-flex-flow: column;
+}
+
+
+/* 顶部标题 */
+
+.nav {
+    position: relative;
+}
+
+.nav-inner li {
+    display: none;
+}
+
+.nav-inner li.active {
+    display: block;
+}
+
+
+/* 中间 */
+
+.flex-1 {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+}
+
+
+/* 底部导航 */
+
+footer {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center;
+    overflow: hidden;
+    border-top: 1px solid #e3e3e3;
+}
+
+footer .menu li {
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 50px;
+}
+
+.menu li i {
+    margin-top: 3px;
+    font-size: 24px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0, minimum-scale=1.0, user-scalable=0, initial-scale=1.0, width=device-width" />
+    <meta name="format-detection" content="telephone=no, email=no, date=no, address=no">
+    <meta name="keyword" content="博客之家,写作,阅读">
+    <meta name="description" content="博客之家是一个专门用于写博客的app,你可以在这里游览博客,写博客,记录生活美好瞬间">
+    <meta name="url" content="https://guanqi.xyz">
+    <meta name="author" content="guanqi">
+    <title>博客之家</title>
+    <link rel="stylesheet" type="text/css" href="../../css/api.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/listc.css" />
+</head>
+
+<body>
+    <div class="focus-list">
+        <div class="focus-list-header clearfix">
+            <span class="focus-list-back" onclick="backPrev()">&lt;</span>
+            <span class="focus-list-title">评论的人</span>
+        </div>
+        <div class="focus-list-body">
+            <p class="focus-list-total">你评论了<strong class="focus-list-num">0</strong>人,加油吧！</p>
+            <ul class="focus-list-list"  id="reply-list">
+              <script id="tmlTemp" type="text/x-dot-template">
+                  {{ for(var i=0;i
+                  <it.length;i++) { }}
+                <li class="focus-list-item">
+                    <img class="focus-list-img" src="{{=it[i].reply_user_avator}}" alt="{{=it[i].reply_user_name}}">
+                    <span class="focus-list-name overflow-one">{{=it[i].reply_user_name}}</span>
+                    <span class="focus-list-date">{{=it[i].artTimeRes}}</span>
+                    <span class="focus-list-status" onclick="goPage('{{=it[i].reply_user_id}}')">查看Ta</span>
+                </li>
+                {{ } }}
+              </script>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript" src="../../script/api.js"></script>
+    <script type="text/javascript" src="../../script/base.js"></script>
+    <script type="text/javascript" src="../../script/doT.js"></script>
+    <script type="text/javascript" src="../../script/requrl.js"></script>
+    <script type="text/javascript" src="../../script/reply.js"></script>
+</body>
+
+
+</html>
