@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0, minimum-scale=1.0, user-scalable=0, initial-scale=1.0, width=device-width" />
+    <meta name="format-detection" content="telephone=no, email=no, date=no, address=no">
+    <meta name="keyword" content="Marker,写作,阅读">
+    <meta name="description" content="Marker是一个专门用于写博客的app,你可以在这里游览博客,写博客,记录生活美好瞬间">
+    <meta name="url" content="https://guanqi.xyz">
+    <meta name="author" content="guanqi">
+    <title>Marker</title>
+    <link rel="stylesheet" type="text/css" href="../../css/api.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/listb.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/person.css" />
+</head>
+
+<body>
+    <div class="me disable-scrollx">
+        <div class="focus-list-header clearfix">
+            <span class="focus-list-back" onclick="backPrev('personal')">&lt;</span>
+            <span class="focus-list-title">个人资料</span>
+        </div>
+        <!-- 信息页面 -->
+        <div class="me-set">
+            <ul class="msg msg-block disable-scrollx">
+                <li class="msg-item msg-block-item clearfix" id="avator">
+                    <i class="iconfont">&#xe60c;</i>
+                    <span class="msg-item-title">我的头像</span>
+                    <span class="msg-item-arrow">&gt;</span>
+                </li>
+                <li class="msg-item msg-block-item clearfix" id="username">
+                    <i class="iconfont">&#xe606;</i>
+                    <span class="msg-item-title">我的昵称<strong class="me-personal-mark myname">Marker</strong></span>
+                    <span class="msg-item-arrow">&gt;</span>
+                </li>
+                <li class="msg-item msg-block-item clearfix" id="sign">
+                    <i class="iconfont">&#xe63b;</i>
+                    <span class="msg-item-title">个性签名<strong class="me-personal-mark mysign">你身边的博客</strong></span>
+                    <span class="msg-item-arrow">&gt;</span>
+                </li>
+            </ul>
+            <ul class="msg msg-block disable-scrollx">
+                <li class="msg-item msg-block-item clearfix" id="mobile">
+                    <i class="iconfont">&#xe642;</i>
+                    <span class="msg-item-title">手机号<strong class="me-personal-mark myphone">18235698831</strong></span>
+                    <span class="msg-item-status me-personal-statusb">未验证</span>
+                </li>
+                <li class="msg-item msg-block-item clearfix" id="email">
+                    <i class="iconfont">&#xe623;</i>
+                    <span class="msg-item-title">邮箱<strong class="me-personal-mark myemail">jcguanqi#126.com</strong></span>
+                    <span class="msg-item-status me-personal-statusb">未验证</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 弹出框 -->
+    <div class="common-modal hide">
+        <div class="common-modal-inner">
+            <p class="modal-title">我的昵称</p>
+            <input class="modal-ipt" type="text" name="personal-info" placeholder="赶快输入吧~" required>
+            <p class="modal-set">
+                <button class="modal-set-save">保存</button>
+                <button class="modal-set-cancel">取消</button>
+            </p>
+        </div>
+    </div>
+    <script type="text/javascript" src="../../script/api.js"></script>
+    <script type="text/javascript" src="../../script/base.js"></script>
+    <script type="text/javascript" src="../../script/requrl.js"></script>
+    <script type="text/javascript" src="../../script/personal.js"></script>
+</body>
+
+
+
+</html>

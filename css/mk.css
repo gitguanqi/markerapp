@@ -1,0 +1,58 @@
+/*
+author: guanqi;
+date: 2019.4.8;
+comment: markdown文章预览样式
+*/
+
+.article-preview {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.article-preview h1, .article-preview h2, .article-preview h3, .article-preview h4, .article-preview h5, .article-preview h6 {
+    margin: 10px auto;
+    width: 95%;
+    line-height: 20px;
+    color: #333;
+}
+
+.article-preview h1 {
+    font-size: 22px;
+}
+
+.article-preview h2 {
+    font-size: 20px;
+}
+
+.article-preview h3 {
+    font-size: 18px;
+}
+
+.article-preview h4 {
+    font-size: 16px;
+}
+
+.article-preview h5 {
+    font-size: 14px;
+}
+
+.article-preview h6 {
+    font-size: 12px;
+}
+
+.article-preview p {
+    margin: 15px auto;
+    width: 95%;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.article-preview ul {
+    margin: 15px auto;
+    padding: 5px 25px;
+    list-style: decimal;
+    width: 95%;
+    line-height: 20px;
+    font-size: 16px;
+}

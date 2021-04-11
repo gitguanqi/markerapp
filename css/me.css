@@ -1,0 +1,85 @@
+/*
+author: guanqi;
+date: 2019.4.4;
+comment: 我的页面样式
+*/
+
+.me {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+/* 头部信息 */
+
+.me {
+    width: 100%;
+    height: 100%;
+}
+
+.no-login-block {
+    display: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.me-sign-show {
+    color: #555;
+    font-weight: normal;
+}
+
+.no-login-btn {
+    margin: 0 10px;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    background-color: #0e52b8;
+    border: 1px solid #0e52b8;
+    border-radius: 8px;
+    outline: none;
+}
+
+.me-info {
+    margin: 0 auto 10px auto;
+    width: 100%;
+    height: 80px;
+}
+
+.focus-list-item {
+    margin: 10px auto;
+    width: 100%;
+    height: 60px;
+}
+
+.focus-list-name {
+    font-size: 20px;
+}
+
+.me-sex {
+    display: block;
+    float: left;
+    background-color: #e3e3e3;
+}
+
+.me-phone-show {
+    float: left;
+}
+
+
+/* 一些操作 */
+
+.me-set {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 系统设置 */
+
+.me-set-list {
+    margin: 20px 0;
+}

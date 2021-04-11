@@ -1,0 +1,25 @@
+/*
+author: guanqi;
+date: 2019.4.5;
+comment: 关于作者
+*/
+
+
+/* 关于作者 */
+
+.me-author {
+    box-sizing: border-box;
+    margin: 20px auto;
+    padding: 10px 15px;
+    width: 90%;
+    border-radius: 8px;
+    border: 1px solid #e3e3e3;
+}
+
+.me-author-info {
+    list-style: none;
+}
+
+.author-link {
+  color: #0e52b8;
+}

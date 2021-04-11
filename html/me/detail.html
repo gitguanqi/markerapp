@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0, minimum-scale=1.0, user-scalable=0, initial-scale=1.0, width=device-width" />
+    <meta name="format-detection" content="telephone=no, email=no, date=no, address=no">
+    <meta name="keyword" content="Marker,写作,阅读">
+    <meta name="description" content="Marker是一个专门用于写博客的app,你可以在这里游览博客,写博客,记录生活美好瞬间">
+    <meta name="url" content="https://guanqi.xyz">
+    <meta name="author" content="guanqi">
+    <title>Marker</title>
+    <link rel="stylesheet" type="text/css" href="../../css/api.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/mk.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/detail.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="focus-list-header detail-fixed clearfix">
+            <span class="focus-list-back" onclick="backPrev()">&lt;</span>
+            <span class="focus-list-title">文章详情</span>
+            <span class="top-right-btn detail-set iconfont hide">&#xe604;</span>
+        </div>
+        <div class="article-center">
+            <div class="article-title-top overflow-three">
+                <h2 class="article-title-show"></h2>
+            </div>
+            <ul class="article-author">
+                <li class="article-author-item">
+                    <img class="article-author-img" src="../../image/logo.png" alt="">
+                    <span class="article-author-name overflow-one"></span>
+                    <span class="article-author-date"></span>
+                    <span class="article-author-read">阅读数：<strong class="article-author-num">0</strong></span>
+                    <span class="article-author-status">关注Ta</span>
+                </li>
+            </ul>
+            <!-- 内容 -->
+            <div class="article-detail">
+                <div class="article-detail-content article-preview"></div>
+                <!-- 评论 -->
+                <div class="new-reply">
+                    <h3 class="new-reply-title">最新评论</h3>
+                    <ul class="new-reply-content" id="reply_data">
+                        <script id="tmlTempReply" type="text/x-dot-template">
+                            {{ for(var i=0;i
+                            <it.length;i++) { }} <li class="reply-author-item clearfix">
+                                <img class="reply-author-img" src="{{=it[i].reply_user_avator}}" alt="{{=it[i].reply_user_name}}">
+                                <span class="reply-author-name overflow-one">{{=it[i].reply_user_name}}</span>
+                                <span class="reply-author-date">{{=it[i].artTimeRes}}</span>
+                                <span class="reply-author-content overflow-three">{{=it[i].reply_content}}</span>
+                                </li>
+                                {{ } }}
+                        </script>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- 控件 -->
+        <div class="article-set clearfix">
+            <input class="article-reply" type="text" placeholder="评论一下呗！">
+            <button class="article-reply-btn">提交</button>
+            <span class="article-good"><i class="iconfont">&#xe62b;</i></span>
+            <span class="article-share"><i class="iconfont">&#xe611;</i></span>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="../../script/api.js"></script>
+    <script type="text/javascript" src="../../script/base.js"></script>
+    <script type="text/javascript" src="../../script/doT.js"></script>
+    <script type="text/javascript" src="../../script/requrl.js"></script>
+    <script type="text/javascript" src="../../script/detail.js"></script>
+
+</body>
+
+
+</html>

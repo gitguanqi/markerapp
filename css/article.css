@@ -1,0 +1,50 @@
+/*
+author: guanqi;
+date: 2019.4.5;
+comment: 文章样式
+*/
+
+.article-add {
+    position: fixed;
+    width: 100%;
+    height: 1000px;
+}
+
+
+/*标题*/
+
+.write-title, .article-content {
+    box-sizing: border-box;
+    padding: 5px 20px;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    color: #333;
+    font-size: 18px;
+    border-bottom: 1px solid #e3e3e3;
+    outline: none;
+}
+
+.write-title:focus {
+    outline: 1px solid #0e52b8;
+}
+
+
+/*内容*/
+
+.write-content {
+    width: 100%;
+    height: 500px;
+}
+
+.article-content {
+    height: 800px;
+    line-height: 30px;
+    color: #555;
+    font-size: 16px;
+    border: none;
+}
+
+.markdown-preview {
+    opacity: 0;
+}

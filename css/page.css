@@ -1,0 +1,42 @@
+/*
+author: guanqi,
+date: 2019.04.05;
+comment: 分页样式
+*/
+
+
+/* 分页样式 */
+
+.pagation {
+    box-sizing: border-box;
+    margin: 20px auto;
+    padding: 2px 5px;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+}
+
+.page-item {
+    margin: 0 8px;
+    padding: 2px 3px;
+    display: block;
+    float: left;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.page-home {
+    width: auto;
+}
+
+.page-active {
+    color: #fff;
+    background-color: #0e52b8;
+    border: 1px solid #0e52b8;
+}

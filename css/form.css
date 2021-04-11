@@ -1,0 +1,156 @@
+/*
+author: guanqi;
+date: 2019.4.6;
+comment: 表单样式
+*/
+
+
+/* logo */
+
+.login-show {
+    display: block;
+    margin: 45px auto 70px auto;
+    width: 300px;
+    height: 100px;
+}
+
+.login-img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 100px;
+}
+
+.login-des {
+    display: block;
+    margin: 10px auto;
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #e3e3e3;
+    font-size: 18px;
+}
+
+
+/* 登录信息 */
+
+.login {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 10px;
+    width: 90%;
+}
+
+.login-form {
+    width: 100%;
+    height: auto;
+}
+
+.login-form p {
+    position: relative;
+}
+
+.input-block {
+    margin: 5px auto;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 50px;
+    width: 84%;
+    height: 35px;
+    line-height: 35px;
+    outline: none;
+    color: #333;
+    border: 1px solid #e3e3e3;
+    border-radius: 8px;
+}
+
+.select-block {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fff;
+}
+
+input:focus, select:focus, textarea:focus {
+    box-shadow: 0 0 1px 1px #2e6bc7;
+}
+
+.multiple-block {
+    margin: 5px auto;
+    padding: 10px 15px;
+    width: 93%;
+    height: 125px;
+    outline: none;
+    color: #333;
+    border: 1px solid #e3e3e3;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.reg-code {
+    margin-right: 10px;
+    width: 45%;
+}
+
+.get-code {
+    width: 35%;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    color: #333;
+    background-color: #e3e3e3;
+    border: 1px solid #e3e3e3;
+    border-radius: 8px;
+}
+
+.input-icon {
+    position: absolute;
+    left: 15px;
+    top: 13px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+}
+
+.getpwd {
+    float: left;
+    margin: 5px;
+}
+
+.forget {
+    float: right;
+    margin: 5px;
+    outline: none;
+}
+
+.login-btn {
+    display: block;
+    margin: 15px auto;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    outline: none;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    background-color: #0e52b8;
+    border: 1px solid #0e52b8;
+    border-radius: 8px;
+}
+
+.goto {
+    text-align: right;
+}
+
+
+/* 禁止点击 */
+
+.disabled-click {
+    background-color: #f8f8f8;
+    color: #666;
+}
