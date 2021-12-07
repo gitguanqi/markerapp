@@ -72,4 +72,4 @@ cd markerapp
 
 ## 协议
 
-本项目遵循[MIT License](http://opensource.org/licenses/MIT)协议,Copyright By gitguanqi
+本项目遵循[GPL3.0](https://www.gnu.org/licenses/gpl-3.0.html)协议,Copyright By gitguanqi

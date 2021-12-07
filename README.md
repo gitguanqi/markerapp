@@ -72,4 +72,4 @@ This warehouse uses the tools provided by the APICloud platform for development 
 
 ## Agreement
 
-This project follows the [MIT License](http://opensource.org/licenses/MIT) agreement, Copyright By gitguanqi
+This project follows the [GPL3.0](https://www.gnu.org/licenses/gpl-3.0.html) agreement, Copyright By gitguanqi
